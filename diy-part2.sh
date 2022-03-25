@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/10.0.0.103/10.0.0.103/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.0.103/g' package/base-files/files/bin/config_generate
 # aliyundrive-webdav
 git clone https://github.com/messense/aliyundrive-webdav.git package/aliyundrive-webdav
 # OpenClash
