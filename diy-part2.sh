@@ -19,10 +19,10 @@ sed -i "s/OpenWrt /A build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/le
 # 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 # aliyundrive-webdav
-git clone https://github.com/messense/aliyundrive-webdav.git package/aliyundrive-webdav
+#git clone https://github.com/messense/aliyundrive-webdav.git package/aliyundrive-webdav
 # OpenClash
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+#git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # openwrt-bypass
-git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
+#git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # openwrt-overwall
-git clone https://github.com/small-5/Openwrt-Compile.git package/overwall
+#git clone https://github.com/small-5/Openwrt-Compile.git package/overwall
